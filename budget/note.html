@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="css/budget.css">
+	<!--
+			tried use <style within html to fix table and it not work
+			result is same as before 
+			try style indivivual element then copy these syle 
+			review w3schools.com on selector again 
+		-->
+	<title>budget
+	</title>
+</head>
+
+<body>
+	<div class='sidenav'>
+		<a href='home.html'>Home</a>
+		<a href='garden.html'>Garden</a>
+		<a href='weight.html'>weight</a>
+	</div>
+	<div class='content'>
+		<div class='topnav'>
+			<!--
+	set this list to be horizational 
+	***below*** 
+-->
+			<ul>
+				<li>earning</li>
+				<ul>
+					<li>income</li>
+					<li>bonus</li>
+				</ul>
+				<li>spending</li>
+				<ul>
+					<li>loss</li>
+				</ul>
+				<li>set goal</li>
+				<ul>
+					<li>expection</li>
+				</ul>
+			</ul>
+		</div>
+		<div class='cc'>
+			<h1 id='year'>2020</h1>
+			<!-- 1900-current year with arrow-->
+
+			<table class='calender'>
+				
+		</div>
+		<div class='graph'>
+			<!--add graph in this
+	use percentage
+	spending, earning, saving
+		use 3 color
+	add other graph
+	on catergories of spending
+		use different color for each catergories
+	-->
+		</div>
+		<div class='spending'>
+			<!--
+		add daily, weekly, monthly, and yearly based on user's perferance 
+
+	-->
+			<ul id="catergory" name="spend">
+				<li value="Taxes">Taxes</li>
+				<ul>
+					<li>FICA(Social Security & Medicare)</li>
+					<li>Federal</li>
+					<li>State and Local</li>
+				</ul>
+				<li value="The roof over your head">The rood over your head</li>
+				<ul>
+					<li>Rent</li>
+					<li>Mortgage</li>
+					<li>Property Taxes</li>
+					<li>gas</li>
+					<li>eletric</li>
+					<li>oil</li>
+					<li>water</li>
+					<li>garbage</li>
+					<li>Phone</li>
+					<li>cable tv & internet</li>
+					<li>Gardener/Housekeeper</li>
+					<li>Furniture/Appliances</li>
+					<li>Maintenance/Repairs</li>
+				</ul>
+				<li value="food">Food</li>
+				<ul>
+					<li>Supermarket</li>
+					<li>Restaurant</li>
+				</ul>
+				<li value="get around">Getting around</li>
+				<ul>
+					<li>Gasoline</li>
+					<li>Maintenance/repairs</li>
+					<li>State registration fees</li>
+					<li>Tolls aand parking</li>
+					<li>bus and subway fare</li>
+				</ul>
+				<li value="style">Style</li>
+				<ul>
+					<li>Clothing</li>
+					<li>Shoes</li>
+					<li>Jewelry</li>
+					<li>Dry cleaning</li>
+				</ul>
+				<li value="debt repayment">Debt repayment(excluding mortgage)</li>
+				<ul>
+					<li>Credit/charge cards</li>
+					<li>Auto loans</li>
+					<li>student loans</li>
+					<li>other</li>
+				</ul>
+				<li value="fun stuff">fun stuff</li>
+				<ul>
+					<li>Entertainment(movies, concert</li>
+					<li>Vacation and travel</li>
+					<li>gift</li>
+					<li>Mortgage</li>
+					<li>Hobbies</li>
+					<li>Subscription/memberships</li>
+					<li>pets</li>
+					<li>other</li>
+				</ul>
+				<li value="personal care">Personal care</li>
+				<ul>
+					<li>haircuts</li>
+					<li>health club or gym</li>
+					<li>makeup</li>
+					<li>other</li>
+				</ul>
+				<li value="personal business">Personal business</li>
+				<ul>
+					<li>Accountant/attorney/financial advisor</li>
+					<li>other</li>
+				</ul>
+				<li value="health care">Health care</li>
+				<ul>
+					<li>Physician and hospital</li>
+					<li>drugs</li>
+					<li>Dental and vision</li>
+					<li>therapy</li>
+				</ul>
+				<li value="insurance">Insurance</li>
+				<ul>
+					<li>Homeowner's/renter's</li>
+					<li>auto</li>
+					<li>health</li>
+					<li>life</li>
+					<li>disability</li>
+					<li>long term care</li>
+					<li>umbrella liability</li>
+				</ul>
+				<li value="education expense">Education expense</li>
+				<ul>
+					<li>tuition</li>
+					<li>books</li>
+					<li>supplies</li>
+					<li>Housing costs(room & board)</li>
+				</ul>
+				<li value="children">Children</li>
+				<ul>
+					<li>day care</li>
+					<li>toys</li>
+					<li>activities</li>
+					<li>child support</li>
+				</ul>
+				<li value="charitable donation">Charitable donation</li>
+				<li value="other">Other</li>
+			</ul>
+			<table id='monthly'>
+				<tr>
+					<th colspan="2">
+						<h4>monthly</h4>
+					</th>
+				</tr>
+				<tr>
+					<th>total</th>
+					<th>paid</th>
+				</tr>
+				<td>
+					<ul>
+						<li value="Taxes">Taxes</li>
+						<li value="The roof over your head">The rood over your head</li>
+						<li value="food">Food</li>
+						<li value="get around">Getting around</li>
+						<li value="style">Style</li>
+						<li value="debt repayment">Debt repayment(excluding mortgage)</li>
+						<li value="fun stuff">fun stuff</li>
+						<li value="personal care">Personal care</li>
+						<li value="personal business">Personal business</li>
+						<li value="health care">Health care</li>
+						<li value="insurance">Insurance</li>
+						<li value="education expense">Education expense</li>
+						<li value="children">Children</li>
+						<li value="charitable donation">Charitable donation</li>
+						<li value="other">Other</li>
+					</ul>
+				</td>
+				</tr>
+			</table>
+			<h1>result of spending</h1>
+			<ul>
+				<li>percentage</li>
+				<li>mean</li>
+				<li>highest</li>
+				<li>low</li>
+				<li>average</li>
+				<li>median</li>
+			</ul>
+		</div>
+	</div>
+	<div class='state'>
+		<!--
+		50 states 
+		fact
+		tax
+
+
+	
+	-->
+		<a href="alabama.php">Alabama</a>
+		<br><a href="alaska.php">Alaska</a>
+		<br><a href="arizona.php">Arizona</a>
+		<br><a href="arkansas.php">Arkansas</a>
+		<br><a href="california.php">California</a>
+		<br><a href="colorado.php">Colorado</a>
+		<br><a href="connecticut.php">Connecticut</a>
+		<br><a href="delaware.php">Delaware</a>
+		<br><a href="florida.php">Florida</a>
+		<br><a href="georgia.php">Georgia</a>
+		<br><a href="hawaii.php">Hawaii</a>
+		<br><a href="idaho.php">Idaho</a>
+		<br><a href="illinois.php">Illinois</a>
+
+		<a href="indiana.php">Indiana</a>
+		<br><a href="iowa.php">Iowa</a>
+		<br><a href="kansas.php">Kansas</a>
+		<br><a href="kentucky.php">Kentucky</a>
+		<br><a href="louisiana.php">Louisiana</a>
+		<br><a href="maine.php">Maine</a>
+		<br><a href="maryland.php">Maryland</a>
+		<br><a href="massachusetts.php">Massachusetts</a>
+		<br><a href="michigan.php">Michigan</a>
+		<br><a href="minnesota.php">Minnesota</a>
+		<br><a href="mississippi.php">Mississippi</a>
+		<br><a href="missouri.php">Missouri</a>
+		<br><a href="montana.php">Montana</a>
+
+		<a href="nebraska.php">Nebraska</a>
+		<br><a href="nevada.php">Nevada</a>
+		<br><a href="new-hampshire.php">New Hampshire</a>
+		<br><a href="new-jersey.php">New Jersey</a>
+		<br><a href="new-mexico.php">New Mexico</a>
+		<br><a href="new-york.php">New York</a>
+		<br><a href="north-carolina.php">North Carolina</a>
+		<br><a href="north-dakota.php">North Dakota</a>
+		<br><a href="ohio.php">Ohio</a>
+		<br><a href="oklahoma.php">Oklahoma</a>
+		<br><a href="oregon.php">Oregon</a>
+		<br><a href="pennsylvania.php">Pennsylvania</a>
+
+		<a href="rhode-island.php">Rhode Island</a>
+		<br><a href="south-carolina.php">South Carolina</a>
+		<br><a href="south-dakota.php">South Dakota</a>
+		<br><a href="tennessee.php">Tennessee</a>
+		<br><a href="texas.php">Texas</a>
+		<br><a href="utah.php">Utah</a>
+		<br><a href="vermont.php">Vermont</a>
+		<br><a href="virginia.php">Virginia</a>
+		<br><a href="washington.php">Washington</a>
+		<br><a href="west-virginia.php">West Virginia</a>
+		<br><a href="wisconsin.php">Wisconsin</a>
+		<br><a href="wyoming.php">Wyoming</a>
+		<table style="display:block;">
+			<caption>State &amp; Local Sales Tax Rates, As of January 1, 2020</caption>
+			<tfoot>
+				<tr>
+					<td colspan="7">
+						<p>(a) City, county and municipal rates vary. These rates are weighted by population to compute
+							an average local tax rate.</p>
+						<p>(b) Three states levy mandatory, statewide, local add-on sales taxes at the state level:
+							California (1%), Utah (1.25%), and Virginia (1%). We include these in their state sales tax.
+						</p>
+						<p>(c) The sales taxes in Hawaii, New Mexico, and South Dakota have broad bases that include
+							many business-to-business services.</p>
+						<p>(d) Special taxes in local resort areas are not counted here.</p>
+						<p>(e) Salem County, N.J., is not subject to the statewide sales tax rate and collects a local
+							rate of 3.3125%. New Jersey’s local score is represented as a negative.</p>
+						<p>Sources: Sales Tax Clearinghouse; Tax Foundation calculations; State Revenue Department
+							websites</p>
+					</td>
+				</tr>
+			</tfoot>
+			<thead>
+				<tr>
+					<th>State</th>
+					<th>State Tax Rate</th>
+					<th>Rank</th>
+					<th>Avg. Local Tax Rate</th>
+					<th>Combined Rate</th>
+					<th>Rank</th>
+					<th>Max Local Tax Rate</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td data-title="State">Alabama</td>
+					<td data-title="State Tax Rate">4.00%</td>
+					<td data-title="Rank">40</td>
+					<td data-title="Avg. Local Tax Rate">5.22%</td>
+					<td data-title="Combined Rate">9.22%</td>
+					<td data-title="Rank">4</td>
+					<td data-title="Max Local Tax Rate">7.50%</td>
+				</tr>
+				<tr>
+					<td data-title="State">Alaska</td>
+					<td data-title="State Tax Rate">0.00%</td>
+					<td data-title="Rank">46</td>
+					<td data-title="Avg. Local Tax Rate">1.76%</td>
+					<td data-title="Combined Rate">1.76%</td>
+					<td data-title="Rank">46</td>
+					<td data-title="Max Local Tax Rate">7.50%</td>
+				</tr>
+				<tr>
+					<td data-title="State">Arizona</td>
+					<td data-title="State Tax Rate">5.60%</td>
+					<td data-title="Rank">28</td>
+					<td data-title="Avg. Local Tax Rate">2.80%</td>
+					<td data-title="Combined Rate">8.40%</td>
+					<td data-title="Rank">11</td>
+					<td data-title="Max Local Tax Rate">5.60%</td>
+				</tr>
+				<tr>
+					<td data-title="State">Arkansas</td>
+					<td data-title="State Tax Rate">6.50%</td>
+					<td data-title="Rank">9</td>
+					<td data-title="Avg. Local Tax Rate">2.97%</td>
+					<td data-title="Combined Rate">9.47%</td>
+					<td data-title="Rank">3</td>
+					<td data-title="Max Local Tax Rate">5.125%</td>
+				</tr>
+				<tr>
+					<td data-title="State">California (b)</td>
+					<td data-title="State Tax Rate">7.25%</td>
+					<td data-title="Rank">1</td>
+					<td data-title="Avg. Local Tax Rate">1.41%</td>
+					<td data-title="Combined Rate">8.66%</td>
+					<td data-title="Rank">9</td>
+					<td data-title="Max Local Tax Rate">2.50%</td>
+				</tr>
+				<tr>
+					<td data-title="State">Colorado</td>
+					<td data-title="State Tax Rate">2.90%</td>
+					<td data-title="Rank">45</td>
+					<td data-title="Avg. Local Tax Rate">4.75%</td>
+					<td data-title="Combined Rate">7.65%</td>
+					<td data-title="Rank">16</td>
+					<td data-title="Max Local Tax Rate">8.30%</td>
+				</tr>
+				<tr>
+					<td data-title="State">Connecticut</td>
+					<td data-title="State Tax Rate">6.35%</td>
+					<td data-title="Rank">12</td>
+					<td data-title="Avg. Local Tax Rate">0.00%</td>
+					<td data-title="Combined Rate">6.35%</td>
+					<td data-title="Rank">33</td>
+					<td data-title="Max Local Tax Rate">0.00%</td>
+				</tr>
+				<tr>
+					<td data-title="State">D.C.</td>
+					<td data-title="State Tax Rate">6.00%</td>
+					<td data-title="Rank">(17)</td>
+					<td data-title="Avg. Local Tax Rate">0.00%</td>
+					<td data-title="Combined Rate">6.00%</td>
+					<td data-title="Rank">(38)</td>
+					<td data-title="Max Local Tax Rate">0.00%</td>
+				</tr>
+				<tr>
+					<td data-title="State">Delaware</td>
+					<td data-title="State Tax Rate">0.00%</td>
+					<td data-title="Rank">46</td>
+					<td data-title="Avg. Local Tax Rate">0.00%</td>
+					<td data-title="Combined Rate">0.00%</td>
+					<td data-title="Rank">47</td>
+					<td data-title="Max Local Tax Rate">0.00%</td>
+				</tr>
+				<tr>
+					<td data-title="State">Florida</td>
+					<td data-title="State Tax Rate">6.00%</td>
+					<td data-title="Rank">17</td>
+					<td data-title="Avg. Local Tax Rate">1.05%</td>
+					<td data-title="Combined Rate">7.05%</td>
+					<td data-title="Rank">23</td>
+					<td data-title="Max Local Tax Rate">2.50%</td>
+				</tr>
+				<tr>
+					<td data-title="State">Georgia</td>
+					<td data-title="State Tax Rate">4.00%</td>
+					<td data-title="Rank">40</td>
+					<td data-title="Avg. Local Tax Rate">3.31%</td>
+					<td data-title="Combined Rate">7.31%</td>
+					<td data-title="Rank">19</td>
+					<td data-title="Max Local Tax Rate">5.00%</td>
+				</tr>
+				<tr>
+					<td data-title="State">Hawaii (c)</td>
+					<td data-title="State Tax Rate">4.00%</td>
+					<td data-title="Rank">40</td>
+					<td data-title="Avg. Local Tax Rate">0.44%</td>
+					<td data-title="Combined Rate">4.44%</td>
+					<td data-title="Rank">45</td>
+					<td data-title="Max Local Tax Rate">0.50%</td>
+				</tr>
+				<tr>
+					<td data-title="State">Idaho</td>
+					<td data-title="State Tax Rate">6.00%</td>
+					<td data-title="Rank">17</td>
+					<td data-title="Avg. Local Tax Rate">0.03%</td>
+					<td data-title="Combined Rate">6.03%</td>
+					<td data-title="Rank">37</td>
+					<td data-title="Max Local Tax Rate">3.00%</td>
+				</tr>
+				<tr>
+					<td data-title="State">Illinois</td>
+					<td data-title="State Tax Rate">6.25%</td>
+					<td data-title="Rank">13</td>
+					<td data-title="Avg. Local Tax Rate">2.83%</td>
+					<td data-title="Combined Rate">9.08%</td>
+					<td data-title="Rank">6</td>
+					<td data-title="Max Local Tax Rate">10.00%</td>
+				</tr>
+				<tr>
+					<td data-title="State">Indiana</td>
+					<td data-title="State Tax Rate">7.00%</td>
+					<td data-title="Rank">2</td>
+					<td data-title="Avg. Local Tax Rate">0.00%</td>
+					<td data-title="Combined Rate">7.00%</td>
+					<td data-title="Rank">24</td>
+					<td data-title="Max Local Tax Rate">0.00%</td>
+				</tr>
+				<tr>
+					<td data-title="State">Iowa</td>
+					<td data-title="State Tax Rate">6.00%</td>
+					<td data-title="Rank">17</td>
+					<td data-title="Avg. Local Tax Rate">0.94%</td>
+					<td data-title="Combined Rate">6.94%</td>
+					<td data-title="Rank">27</td>
+					<td data-title="Max Local Tax Rate">1.00%</td>
+				</tr>
+				<tr>
+					<td data-title="State">Kansas</td>
+					<td data-title="State Tax Rate">6.50%</td>
+					<td data-title="Rank">9</td>
+					<td data-title="Avg. Local Tax Rate">2.18%</td>
+					<td data-title="Combined Rate">8.68%</td>
+					<td data-title="Rank">8</td>
+					<td data-title="Max Local Tax Rate">4.00%</td>
+				</tr>
+				<tr>
+					<td data-title="State">Kentucky</td>
+					<td data-title="State Tax Rate">6.00%</td>
+					<td data-title="Rank">17</td>
+					<td data-title="Avg. Local Tax Rate">0.00%</td>
+					<td data-title="Combined Rate">6.00%</td>
+					<td data-title="Rank">38</td>
+					<td data-title="Max Local Tax Rate">0.00%</td>
+				</tr>
+				<tr>
+					<td data-title="State">Louisiana</td>
+					<td data-title="State Tax Rate">4.45%</td>
+					<td data-title="Rank">38</td>
+					<td data-title="Avg. Local Tax Rate">5.07%</td>
+					<td data-title="Combined Rate">9.52%</td>
+					<td data-title="Rank">2</td>
+					<td data-title="Max Local Tax Rate">7.00%</td>
+				</tr>
+				<tr>
+					<td data-title="State">Maine</td>
+					<td data-title="State Tax Rate">5.50%</td>
+					<td data-title="Rank">29</td>
+					<td data-title="Avg. Local Tax Rate">0.00%</td>
+					<td data-title="Combined Rate">5.50%</td>
+					<td data-title="Rank">42</td>
+					<td data-title="Max Local Tax Rate">0.00%</td>
+				</tr>
+				<tr>
+					<td data-title="State">Massachusetts</td>
+					<td data-title="State Tax Rate">6.25%</td>
+					<td data-title="Rank">13</td>
+					<td data-title="Avg. Local Tax Rate">0.00%</td>
+					<td data-title="Combined Rate">6.25%</td>
+					<td data-title="Rank">35</td>
+					<td data-title="Max Local Tax Rate">0.00%</td>
+				</tr>
+				<tr>
+					<td data-title="State">Maryland</td>
+					<td data-title="State Tax Rate">6.00%</td>
+					<td data-title="Rank">17</td>
+					<td data-title="Avg. Local Tax Rate">0.00%</td>
+					<td data-title="Combined Rate">6.00%</td>
+					<td data-title="Rank">38</td>
+					<td data-title="Max Local Tax Rate">0.00%</td>
+				</tr>
+				<tr>
+					<td data-title="State">Michigan</td>
+					<td data-title="State Tax Rate">6.00%</td>
+					<td data-title="Rank">17</td>
+					<td data-title="Avg. Local Tax Rate">0.00%</td>
+					<td data-title="Combined Rate">6.00%</td>
+					<td data-title="Rank">38</td>
+					<td data-title="Max Local Tax Rate">0.00%</td>
+				</tr>
+				<tr>
+					<td data-title="State">Minnesota</td>
+					<td data-title="State Tax Rate">6.875%</td>
+					<td data-title="Rank">6</td>
+					<td data-title="Avg. Local Tax Rate">0.58%</td>
+					<td data-title="Combined Rate">7.46%</td>
+					<td data-title="Rank">18</td>
+					<td data-title="Max Local Tax Rate">2.00%</td>
+				</tr>
+				<tr>
+					<td data-title="State">Mississippi</td>
+					<td data-title="State Tax Rate">7.00%</td>
+					<td data-title="Rank">2</td>
+					<td data-title="Avg. Local Tax Rate">0.07%</td>
+					<td data-title="Combined Rate">7.07%</td>
+					<td data-title="Rank">22</td>
+					<td data-title="Max Local Tax Rate">1.00%</td>
+				</tr>
+				<tr>
+					<td data-title="State">Missouri</td>
+					<td data-title="State Tax Rate">4.225%</td>
+					<td data-title="Rank">39</td>
+					<td data-title="Avg. Local Tax Rate">3.96%</td>
+					<td data-title="Combined Rate">8.18%</td>
+					<td data-title="Rank">14</td>
+					<td data-title="Max Local Tax Rate">5.625%</td>
+				</tr>
+				<tr>
+					<td data-title="State">Montana (d)</td>
+					<td data-title="State Tax Rate">0.00%</td>
+					<td data-title="Rank">46</td>
+					<td data-title="Avg. Local Tax Rate">0.00%</td>
+					<td data-title="Combined Rate">0.00%</td>
+					<td data-title="Rank">47</td>
+					<td data-title="Max Local Tax Rate">0.00%</td>
+				</tr>
+				<tr>
+					<td data-title="State">North Carolina</td>
+					<td data-title="State Tax Rate">4.75%</td>
+					<td data-title="Rank">35</td>
+					<td data-title="Avg. Local Tax Rate">2.22%</td>
+					<td data-title="Combined Rate">6.97%</td>
+					<td data-title="Rank">26</td>
+					<td data-title="Max Local Tax Rate">2.75%</td>
+				</tr>
+				<tr>
+					<td data-title="State">North Dakota</td>
+					<td data-title="State Tax Rate">5.00%</td>
+					<td data-title="Rank">33</td>
+					<td data-title="Avg. Local Tax Rate">1.86%</td>
+					<td data-title="Combined Rate">6.86%</td>
+					<td data-title="Rank">29</td>
+					<td data-title="Max Local Tax Rate">3.50%</td>
+				</tr>
+				<tr>
+					<td data-title="State">New Hampshire</td>
+					<td data-title="State Tax Rate">0.00%</td>
+					<td data-title="Rank">46</td>
+					<td data-title="Avg. Local Tax Rate">0.00%</td>
+					<td data-title="Combined Rate">0.00%</td>
+					<td data-title="Rank">47</td>
+					<td data-title="Max Local Tax Rate">0.00%</td>
+				</tr>
+				<tr>
+					<td data-title="State">New Jersey (e)</td>
+					<td data-title="State Tax Rate">6.625%</td>
+					<td data-title="Rank">8</td>
+					<td data-title="Avg. Local Tax Rate">-0.03%</td>
+					<td data-title="Combined Rate">6.60%</td>
+					<td data-title="Rank">30</td>
+					<td data-title="Max Local Tax Rate">3.313%</td>
+				</tr>
+				<tr>
+					<td data-title="State">New Mexico (c)</td>
+					<td data-title="State Tax Rate">5.125%</td>
+					<td data-title="Rank">32</td>
+					<td data-title="Avg. Local Tax Rate">2.69%</td>
+					<td data-title="Combined Rate">7.82%</td>
+					<td data-title="Rank">15</td>
+					<td data-title="Max Local Tax Rate">4.125%</td>
+				</tr>
+				<tr>
+					<td data-title="State">New York</td>
+					<td data-title="State Tax Rate">4.00%</td>
+					<td data-title="Rank">40</td>
+					<td data-title="Avg. Local Tax Rate">4.52%</td>
+					<td data-title="Combined Rate">8.52%</td>
+					<td data-title="Rank">10</td>
+					<td data-title="Max Local Tax Rate">4.875%</td>
+				</tr>
+				<tr>
+					<td data-title="State">Nebraska</td>
+					<td data-title="State Tax Rate">5.50%</td>
+					<td data-title="Rank">29</td>
+					<td data-title="Avg. Local Tax Rate">1.43%</td>
+					<td data-title="Combined Rate">6.93%</td>
+					<td data-title="Rank">28</td>
+					<td data-title="Max Local Tax Rate">2.50%</td>
+				</tr>
+				<tr>
+					<td data-title="State">Nevada</td>
+					<td data-title="State Tax Rate">6.85%</td>
+					<td data-title="Rank">7</td>
+					<td data-title="Avg. Local Tax Rate">1.47%</td>
+					<td data-title="Combined Rate">8.32%</td>
+					<td data-title="Rank">12</td>
+					<td data-title="Max Local Tax Rate">1.65%</td>
+				</tr>
+				<tr>
+					<td data-title="State">Ohio</td>
+					<td data-title="State Tax Rate">5.75%</td>
+					<td data-title="Rank">27</td>
+					<td data-title="Avg. Local Tax Rate">1.42%</td>
+					<td data-title="Combined Rate">7.17%</td>
+					<td data-title="Rank">21</td>
+					<td data-title="Max Local Tax Rate">2.25%</td>
+				</tr>
+				<tr>
+					<td data-title="State">Oklahoma</td>
+					<td data-title="State Tax Rate">4.50%</td>
+					<td data-title="Rank">36</td>
+					<td data-title="Avg. Local Tax Rate">4.44%</td>
+					<td data-title="Combined Rate">8.94%</td>
+					<td data-title="Rank">7</td>
+					<td data-title="Max Local Tax Rate">7.00%</td>
+				</tr>
+				<tr>
+					<td data-title="State">Oregon</td>
+					<td data-title="State Tax Rate">0.00%</td>
+					<td data-title="Rank">46</td>
+					<td data-title="Avg. Local Tax Rate">0.00%</td>
+					<td data-title="Combined Rate">0.00%</td>
+					<td data-title="Rank">47</td>
+					<td data-title="Max Local Tax Rate">0.00%</td>
+				</tr>
+				<tr>
+					<td data-title="State">Pennsylvania</td>
+					<td data-title="State Tax Rate">6.00%</td>
+					<td data-title="Rank">17</td>
+					<td data-title="Avg. Local Tax Rate">0.34%</td>
+					<td data-title="Combined Rate">6.34%</td>
+					<td data-title="Rank">34</td>
+					<td data-title="Max Local Tax Rate">2.00%</td>
+				</tr>
+				<tr>
+					<td data-title="State">Rhode Island</td>
+					<td data-title="State Tax Rate">7.00%</td>
+					<td data-title="Rank">2</td>
+					<td data-title="Avg. Local Tax Rate">0.00%</td>
+					<td data-title="Combined Rate">7.00%</td>
+					<td data-title="Rank">24</td>
+					<td data-title="Max Local Tax Rate">0.00%</td>
+				</tr>
+				<tr>
+					<td data-title="State">South Carolina</td>
+					<td data-title="State Tax Rate">6.00%</td>
+					<td data-title="Rank">17</td>
+					<td data-title="Avg. Local Tax Rate">1.46%</td>
+					<td data-title="Combined Rate">7.46%</td>
+					<td data-title="Rank">17</td>
+					<td data-title="Max Local Tax Rate">3.00%</td>
+				</tr>
+				<tr>
+					<td data-title="State">South Dakota (c)</td>
+					<td data-title="State Tax Rate">4.50%</td>
+					<td data-title="Rank">36</td>
+					<td data-title="Avg. Local Tax Rate">1.90%</td>
+					<td data-title="Combined Rate">6.40%</td>
+					<td data-title="Rank">32</td>
+					<td data-title="Max Local Tax Rate">4.50%</td>
+				</tr>
+				<tr>
+					<td data-title="State">Tennessee</td>
+					<td data-title="State Tax Rate">7.00%</td>
+					<td data-title="Rank">2</td>
+					<td data-title="Avg. Local Tax Rate">2.53%</td>
+					<td data-title="Combined Rate">9.53%</td>
+					<td data-title="Rank">1</td>
+					<td data-title="Max Local Tax Rate">2.75%</td>
+				</tr>
+				<tr>
+					<td data-title="State">Texas</td>
+					<td data-title="State Tax Rate">6.25%</td>
+					<td data-title="Rank">13</td>
+					<td data-title="Avg. Local Tax Rate">1.94%</td>
+					<td data-title="Combined Rate">8.19%</td>
+					<td data-title="Rank">13</td>
+					<td data-title="Max Local Tax Rate">2.00%</td>
+				</tr>
+				<tr>
+					<td data-title="State">Utah (b)</td>
+					<td data-title="State Tax Rate">6.10%</td>
+					<td data-title="Rank">16</td>
+					<td data-title="Avg. Local Tax Rate">1.08%</td>
+					<td data-title="Combined Rate">7.18%</td>
+					<td data-title="Rank">20</td>
+					<td data-title="Max Local Tax Rate">2.95%</td>
+				</tr>
+				<tr>
+					<td data-title="State">Virginia&nbsp;(b)</td>
+					<td data-title="State Tax Rate">5.30%</td>
+					<td data-title="Rank">31</td>
+					<td data-title="Avg. Local Tax Rate">0.35%</td>
+					<td data-title="Combined Rate">5.65%</td>
+					<td data-title="Rank">41</td>
+					<td data-title="Max Local Tax Rate">0.70%</td>
+				</tr>
+				<tr>
+					<td data-title="State">Vermont</td>
+					<td data-title="State Tax Rate">6.00%</td>
+					<td data-title="Rank">17</td>
+					<td data-title="Avg. Local Tax Rate">0.22%</td>
+					<td data-title="Combined Rate">6.22%</td>
+					<td data-title="Rank">36</td>
+					<td data-title="Max Local Tax Rate">1.00%</td>
+				</tr>
+				<tr>
+					<td data-title="State">West Virginia</td>
+					<td data-title="State Tax Rate">6.00%</td>
+					<td data-title="Rank">17</td>
+					<td data-title="Avg. Local Tax Rate">0.41%</td>
+					<td data-title="Combined Rate">6.41%</td>
+					<td data-title="Rank">31</td>
+					<td data-title="Max Local Tax Rate">1.00%</td>
+				</tr>
+				<tr>
+					<td data-title="State">Washington</td>
+					<td data-title="State Tax Rate">6.50%</td>
+					<td data-title="Rank">9</td>
+					<td data-title="Avg. Local Tax Rate">2.71%</td>
+					<td data-title="Combined Rate">9.21%</td>
+					<td data-title="Rank">5</td>
+					<td data-title="Max Local Tax Rate">4.00%</td>
+				</tr>
+				<tr>
+					<td data-title="State">Wisconsin</td>
+					<td data-title="State Tax Rate">5.00%</td>
+					<td data-title="Rank">33</td>
+					<td data-title="Avg. Local Tax Rate">0.46%</td>
+					<td data-title="Combined Rate">5.46%</td>
+					<td data-title="Rank">43</td>
+					<td data-title="Max Local Tax Rate">1.75%</td>
+				</tr>
+				<tr>
+					<td data-title="State">Wyoming</td>
+					<td data-title="State Tax Rate">4.00%</td>
+					<td data-title="Rank">40</td>
+					<td data-title="Avg. Local Tax Rate">1.34%</td>
+					<td data-title="Combined Rate">5.34%</td>
+					<td data-title="Rank">44</td>
+					<td data-title="Max Local Tax Rate">2.00%</td>
+				</tr>
+			</tbody>
+		</table>
+
+	</div>
+	<!--
+	add more idea;
+	perecent how much u can cover for bill
+	how much u need to pay
+	shopping list
+	alternat to find cheaper
+	locate for grocery and shopping for digital and inperson
+	statical
+	weekly earning for card and cash, bonus, calculating hourly, use 50 state to calculate for deduction
+	surlpus, wallet,saving, piggy bank, hawk
+	
+	for spending, balance, remaining, spending
+
+	statiscal for cash and card
+	make 12 months and year
+
+-->
+</body>
+
+</html>
